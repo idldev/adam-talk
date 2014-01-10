@@ -1,0 +1,899 @@
+[
+	{
+		"webtech":
+
+			{
+				"app":
+
+				{
+					"name": "App",
+					"slug": "app",
+					"complexity":
+						[
+							{ "level": "1", "slug": "vanilla", "name": "Vanilla" },
+							{ "level": "2", "slug": "chocolate", "name": "Chocolate" },
+							{ "level": "3", "slug": "raspberry", "name": "Raspberry" },
+							{ "level": "4", "slug": "angels-food", "name": "Angel's Food" },
+							{ "level": "4", "name": "devils-food", "name": "Devil's Food" }
+						],
+					"addons":
+						[
+							{ "slug": "analytics", "name": "Analytics" },
+							{ "slug": "android", "name": "Android" },
+							{ "slug": "cms", "name": "CMS" },
+							{ "slug": "ecommerce", "name": "eCommerce" },
+							{ "slug": "css", "name": "CSS" },
+							{ "slug": "design", "name": "Design" },
+							{ "slug": "flash", "name": "Flash" },
+							{ "slug": "full stack", "name": "Full Stack" },
+							{ "slug": "game design", "name": "Game Design" },
+							{ "slug": "Game Development", "name": "Game Development" },
+							{ "slug": "interaction", "name": "Interaction" },
+							{ "slug": "ios", "name": "iOS" },
+							{ "slug": "low-high fidelity prototyping", "name": "Low/High Fidelity Prototyping" },
+							{ "slug": "product management", "name": "Product Management" },
+							{ "slug": "project management", "name": "Project Management" },
+							{ "slug": "responsive", "name": "Responsive" },
+							{ "slug": "wordpress ", "name": "Wordpress " },
+							{ "slug": "Widgets", "name": "Widgets" },
+							{ "slug": "ux-design", "name": "UX Design" },
+							{ "slug": "user-behavior-research", "name": "User Behavior Research" },
+							{ "slug": "ui-design", "name": "UI Design" },
+							{ "slug": "tumblr", "name": "Tumblr" },
+							{ "slug": "strategy", "name": "Strategy" },
+							{ "slug": "squarespace", "name": "Squarespace" },
+							{ "slug": "rss", "name": "RSS" }
+						]
+				},
+
+				"design":
+				{
+					"name": "Design",
+					"slug": "design",
+					"complexity":
+					[
+						{ "level": "1", "slug": "easypeasy", "name": "Easy Peasy" },
+						{ "level": "2", "slug": "nothinbutathing", "name": "Nothing But A Thing" },
+						{ "level": "4", "slug": "prettytough", "name": "Pretty Tough" }
+					],
+					"addons": 
+					[
+						{ "slug": "art-direction", "name": "Art Direction" },
+						{ "slug": "creative-technologist", "name": "Creative Technologist" },
+						{ "slug": "creative-direction", "name": "Creative Direction" },
+						{ "slug": "css", "name": "CSS" },
+						{ "slug": "flash", "name": "Flash" },
+						{ "slug": "fullstack", "name": "Full Stack" },
+						{ "slug": "interaction", "name": "Interaction" },
+						{ "slug": "ios", "name": "iOS" },
+						{ "slug": "low-high-fidelity-prototyping", "name": "Low/High Fidelity Prototyping" },
+						{ "slug": "product-management", "name": "Product Management" },
+						{ "slug": "mobile", "name": "Mobile" },
+						{ "slug": "responsive", "name": "Responsive" },
+						{ "slug": "wordpress ", "name": "Wordpress " },
+						{ "slug": "widgets", "name": "Widgets" },
+						{ "slug": "ux-design", "name": "UX Design" },
+						{ "slug": "user-behavior research", "name": "User Behavior Research" },
+						{ "slug": "ui-design", "name": "UI Design" },
+						{ "slug": "tumblr", "name": "Tumblr" },
+						{ "slug": "strategy", "name": "Strategy" },
+						{ "slug": "squarespace", "name": "Squarespace" }
+					]
+				},
+
+				"ecommerce":
+				{
+					"name": "eCommerce",
+					"slug": "ecommerce",
+					"complexity":
+					[
+					],
+					"addons": 
+					[
+						{ "slug": "ameri-commerce", "name": "Ameri Commerce" },
+						{ "slug": "analytics", "name": "Analytics" },
+						{ "slug": "big-cartel", "name": "Big Cartel" },
+						{ "slug": "bigcommerce", "name": "Bigcommerce" },
+						{ "slug": "3d-cart", "name": "3D Cart" },
+						{ "slug": "core-commerce", "name": "Core Commerce" },
+						{ "slug": "css", "name": "CSS" },
+						{ "slug": "design", "name": "Design" },
+						{ "slug": "full-stack", "name": "Full Stack" },
+						{ "slug": "interaction", "name": "Interaction" },
+						{ "slug": "ios", "name": "iOS" },
+						{ "slug": "lemonstand", "name": "Lemonstand" },
+						{ "slug": "magento", "name": "Magento" },
+						{ "slug": "os-commerce", "name": "OS Commerce" },
+						{ "slug": "product-management", "name": "Product Management" },
+						{ "slug": "project-management", "name": "Project Management" },
+						{ "slug": "mobile", "name": "Mobile" },
+						{ "slug": "responsive", "name": "Responsive" },
+						{ "slug": "xcart", "name": "xCart" },
+						{ "slug": "wordpress ", "name": "Wordpress " },
+						{ "slug": "widgets", "name": "Widgets" },
+						{ "slug": "volusion", "name": "Volusion" },
+						{ "slug": "virtue mart", "name": "Virtue Mart" },
+						{ "slug": "ux design", "name": "UX Design" },
+						{ "slug": "tumblr", "name": "Tumblr" },
+						{ "slug": "strategy", "name": "Strategy" },
+						{ "slug": "squarespace", "name": "Squarespace" },
+						{ "slug": "shopify", "name": "Shopify" }
+					]
+				},
+
+				"mobile":
+				{
+					"name": "Mobile",
+					"slug": "mobile"
+				},
+
+				"seo-sem":
+				{
+					"name": "SEO/SEM",
+					"slug": "seo-sem"
+				},
+
+				"social-media-campaign":
+				{
+					"name": "Social Media Campaign",
+					"slug": "social-media-campaign",
+					"complexity":
+						[
+							{ "level": "1", "slug": "easypeasy", "name": "Easy Peasy" },
+							{ "level": "2", "slug": "nothinbutathing", "name": "Nothing But A Thing" },
+							{ "level": "3", "slug": "alittledoin", "name": "Takes A Little Doin'" },
+							{ "level": "4", "slug": "prettytough", "name": "Pretty Tough" },
+							{ "level": "4", "name": "skullfucker", "name": "Skull Fucker" }
+						],
+					"addons":
+						[
+							{ "slug": "analytics", "name": "Analytics" },
+							{ "slug": "cms", "name": "CMS" },
+							{ "slug": "ecommerce", "name": "eCommerce" },
+							{ "slug": "css", "name": "CSS" },
+							{ "slug": "design", "name": "Design" },
+							{ "slug": "android", "name": "Android" },
+							{ "slug": "ajax", "name": "AJAX" },
+							{ "slug": "drupal", "name": "Drupal" },
+							{ "slug": "flash", "name": "Flash" },
+							{ "slug": "full-stack", "name": "Full Stack" },
+							{ "slug": "html", "name": "HTML" },
+							{ "slug": "interaction", "name": "Interaction" },
+							{ "slug": "ios", "name": "iOS" },
+							{ "slug": "product-management", "name": "Product Management" },
+							{ "slug": "project-management", "name": "Project Management" },
+							{ "slug": "mobile", "name": "Mobile" },
+							{ "slug": "responsive", "name": "Responsive" },
+							{ "slug": "wordpress ", "name": "Wordpress " },
+							{ "slug": "widgets", "name": "Widgets" },
+							{ "slug": "ux design", "name": "UX Design" },
+							{ "slug": "user-behavior-research", "name": "User Behavior Research" },
+							{ "slug": "ui-design", "name": "UI Design" },
+							{ "slug": "tumblr", "name": "Tumblr" },
+							{ "slug": "strategy", "name": "Strategy" },
+							{ "slug": "squarespace", "name": "Squarespace" },
+							{ "slug": "ruby on rails", "name": "Ruby On Rails" },
+							{ "slug": "rss", "name": "RSS" }
+						]
+				},
+
+				"email-campaign":
+				{
+					"name": "Email Campaign",
+					"slug": "email-campaign",
+					"complexity":
+						[
+							{ "level": "1", "slug": "1clicker", "name": "1-Clicker" },
+							{ "level": "2", "slug": "uploadnrun", "name": "Upload & Run" },
+							{ "level": "3", "slug": "leterrip", "name": "Let 'Er Rip!" },
+							{ "level": "4", "slug": "holycow", "name": "Holy Cow" },
+							{ "level": "4", "name": "insane", "name": "INSANE" }
+						],
+					"addons":
+						[
+							{ "slug": "analytics", "name": "Analytics" },
+							{ "slug": "cms", "name": "CMS" },
+							{ "slug": "ecommerce", "name": "eCommerce" },
+							{ "slug": "css", "name": "CSS" },
+							{ "slug": "design", "name": "Design" },
+							{ "slug": "android", "name": "Android" },
+							{ "slug": "ajax", "name": "AJAX" },
+							{ "slug": "drupal", "name": "Drupal" },
+							{ "slug": "flash", "name": "Flash" },
+							{ "slug": "full-stack", "name": "Full Stack" },
+							{ "slug": "html", "name": "HTML" },
+							{ "slug": "interaction", "name": "Interaction" },
+							{ "slug": "ios", "name": "iOS" },
+							{ "slug": "product-management", "name": "Product Management" },
+							{ "slug": "project-management", "name": "Project Management" },
+							{ "slug": "mobile", "name": "Mobile" },
+							{ "slug": "responsive", "name": "Responsive" },
+							{ "slug": "wordpress ", "name": "Wordpress " },
+							{ "slug": "widgets", "name": "Widgets" },
+							{ "slug": "ux design", "name": "UX Design" },
+							{ "slug": "user-behavior-research", "name": "User Behavior Research" },
+							{ "slug": "ui-design", "name": "UI Design" },
+							{ "slug": "tumblr", "name": "Tumblr" },
+							{ "slug": "strategy", "name": "Strategy" },
+							{ "slug": "squarespace", "name": "Squarespace" },
+							{ "slug": "ruby on rails", "name": "Ruby On Rails" },
+							{ "slug": "rss", "name": "RSS" }
+						]
+				},
+
+				"digital-marketing":
+				{
+					"name": "Digital Marketing",
+					"slug": "digital-marketing",
+					"complexity":
+						[
+							{ "level": "1", "slug": "easypeasy", "name": "Easy Peasy" },
+							{ "level": "2", "slug": "nothinbutathing", "name": "Nothing But A Thing" },
+							{ "level": "3", "slug": "alittledoin", "name": "Takes A Little Doin'" },
+							{ "level": "4", "slug": "prettytough", "name": "Pretty Tough" },
+							{ "level": "4", "name": "skullfucker", "name": "Skull Fucker" }
+						],
+					"addons":
+						[
+							{ "slug": "analytics", "name": "Analytics" },
+							{ "slug": "cms", "name": "CMS" },
+							{ "slug": "ecommerce", "name": "eCommerce" },
+							{ "slug": "css", "name": "CSS" },
+							{ "slug": "design", "name": "Design" },
+							{ "slug": "android", "name": "Android" },
+							{ "slug": "ajax", "name": "AJAX" },
+							{ "slug": "drupal", "name": "Drupal" },
+							{ "slug": "flash", "name": "Flash" },
+							{ "slug": "full-stack", "name": "Full Stack" },
+							{ "slug": "html", "name": "HTML" },
+							{ "slug": "interaction", "name": "Interaction" },
+							{ "slug": "ios", "name": "iOS" },
+							{ "slug": "product-management", "name": "Product Management" },
+							{ "slug": "project-management", "name": "Project Management" },
+							{ "slug": "mobile", "name": "Mobile" },
+							{ "slug": "responsive", "name": "Responsive" },
+							{ "slug": "wordpress ", "name": "Wordpress " },
+							{ "slug": "widgets", "name": "Widgets" },
+							{ "slug": "ux design", "name": "UX Design" },
+							{ "slug": "user-behavior-research", "name": "User Behavior Research" },
+							{ "slug": "ui-design", "name": "UI Design" },
+							{ "slug": "tumblr", "name": "Tumblr" },
+							{ "slug": "strategy", "name": "Strategy" },
+							{ "slug": "squarespace", "name": "Squarespace" },
+							{ "slug": "ruby on rails", "name": "Ruby On Rails" },
+							{ "slug": "rss", "name": "RSS" }
+						]
+				},
+
+				"influencer-marketing":
+				{
+					"name": "Influencer Marketing",
+					"slug": "influencer-marketing",
+					"complexity":
+						[
+							{ "level": "1", "slug": "easypeasy", "name": "Easy Peasy" },
+							{ "level": "2", "slug": "nothinbutathing", "name": "Nothing But A Thing" },
+							{ "level": "3", "slug": "alittledoin", "name": "Takes A Little Doin'" },
+							{ "level": "4", "slug": "prettytough", "name": "Pretty Tough" },
+							{ "level": "4", "name": "skullfucker", "name": "Skull Fucker" }
+						],
+					"addons":
+						[
+							{ "slug": "analytics", "name": "Analytics" },
+							{ "slug": "cms", "name": "CMS" },
+							{ "slug": "ecommerce", "name": "eCommerce" },
+							{ "slug": "css", "name": "CSS" },
+							{ "slug": "design", "name": "Design" },
+							{ "slug": "android", "name": "Android" },
+							{ "slug": "ajax", "name": "AJAX" },
+							{ "slug": "drupal", "name": "Drupal" },
+							{ "slug": "flash", "name": "Flash" },
+							{ "slug": "full-stack", "name": "Full Stack" },
+							{ "slug": "html", "name": "HTML" },
+							{ "slug": "interaction", "name": "Interaction" },
+							{ "slug": "ios", "name": "iOS" },
+							{ "slug": "product-management", "name": "Product Management" },
+							{ "slug": "project-management", "name": "Project Management" },
+							{ "slug": "mobile", "name": "Mobile" },
+							{ "slug": "responsive", "name": "Responsive" },
+							{ "slug": "wordpress ", "name": "Wordpress " },
+							{ "slug": "widgets", "name": "Widgets" },
+							{ "slug": "ux design", "name": "UX Design" },
+							{ "slug": "user-behavior-research", "name": "User Behavior Research" },
+							{ "slug": "ui-design", "name": "UI Design" },
+							{ "slug": "tumblr", "name": "Tumblr" },
+							{ "slug": "strategy", "name": "Strategy" },
+							{ "slug": "squarespace", "name": "Squarespace" },
+							{ "slug": "ruby on rails", "name": "Ruby On Rails" },
+							{ "slug": "rss", "name": "RSS" }
+						]
+				},
+
+				"growth-hacking":
+				{
+					"name": "Growth Hacking",
+					"slug": "growth-hacking",
+					"complexity":
+						[
+							{ "level": "1", "slug": "easypeasy", "name": "Easy Peasy" },
+							{ "level": "2", "slug": "nothinbutathing", "name": "Nothing But A Thing" },
+							{ "level": "3", "slug": "alittledoin", "name": "Takes A Little Doin'" },
+							{ "level": "4", "slug": "prettytough", "name": "Pretty Tough" },
+							{ "level": "4", "name": "skullfucker", "name": "Skull Fucker" }
+						],
+					"addons":
+						[
+							{ "slug": "analytics", "name": "Analytics" },
+							{ "slug": "cms", "name": "CMS" },
+							{ "slug": "ecommerce", "name": "eCommerce" },
+							{ "slug": "css", "name": "CSS" },
+							{ "slug": "design", "name": "Design" },
+							{ "slug": "android", "name": "Android" },
+							{ "slug": "ajax", "name": "AJAX" },
+							{ "slug": "drupal", "name": "Drupal" },
+							{ "slug": "flash", "name": "Flash" },
+							{ "slug": "full-stack", "name": "Full Stack" },
+							{ "slug": "html", "name": "HTML" },
+							{ "slug": "interaction", "name": "Interaction" },
+							{ "slug": "ios", "name": "iOS" },
+							{ "slug": "product-management", "name": "Product Management" },
+							{ "slug": "project-management", "name": "Project Management" },
+							{ "slug": "mobile", "name": "Mobile" },
+							{ "slug": "responsive", "name": "Responsive" },
+							{ "slug": "wordpress ", "name": "Wordpress " },
+							{ "slug": "widgets", "name": "Widgets" },
+							{ "slug": "ux design", "name": "UX Design" },
+							{ "slug": "user-behavior-research", "name": "User Behavior Research" },
+							{ "slug": "ui-design", "name": "UI Design" },
+							{ "slug": "tumblr", "name": "Tumblr" },
+							{ "slug": "strategy", "name": "Strategy" },
+							{ "slug": "squarespace", "name": "Squarespace" },
+							{ "slug": "ruby on rails", "name": "Ruby On Rails" },
+							{ "slug": "rss", "name": "RSS" }
+						]
+				},
+
+				"content-seeding":
+				{
+					"name": "Content Seeding",
+					"slug": "content-seeding",
+					"complexity":
+						[
+							{ "level": "1", "slug": "easypeasy", "name": "Easy Peasy" },
+							{ "level": "2", "slug": "nothinbutathing", "name": "Nothing But A Thing" },
+							{ "level": "3", "slug": "alittledoin", "name": "Takes A Little Doin'" },
+							{ "level": "4", "slug": "prettytough", "name": "Pretty Tough" },
+							{ "level": "4", "name": "skullfucker", "name": "Skull Fucker" }
+						],
+					"addons":
+						[
+							{ "slug": "analytics", "name": "Analytics" },
+							{ "slug": "cms", "name": "CMS" },
+							{ "slug": "ecommerce", "name": "eCommerce" },
+							{ "slug": "css", "name": "CSS" },
+							{ "slug": "design", "name": "Design" },
+							{ "slug": "android", "name": "Android" },
+							{ "slug": "ajax", "name": "AJAX" },
+							{ "slug": "drupal", "name": "Drupal" },
+							{ "slug": "flash", "name": "Flash" },
+							{ "slug": "full-stack", "name": "Full Stack" },
+							{ "slug": "html", "name": "HTML" },
+							{ "slug": "interaction", "name": "Interaction" },
+							{ "slug": "ios", "name": "iOS" },
+							{ "slug": "product-management", "name": "Product Management" },
+							{ "slug": "project-management", "name": "Project Management" },
+							{ "slug": "mobile", "name": "Mobile" },
+							{ "slug": "responsive", "name": "Responsive" },
+							{ "slug": "wordpress ", "name": "Wordpress " },
+							{ "slug": "widgets", "name": "Widgets" },
+							{ "slug": "ux design", "name": "UX Design" },
+							{ "slug": "user-behavior-research", "name": "User Behavior Research" },
+							{ "slug": "ui-design", "name": "UI Design" },
+							{ "slug": "tumblr", "name": "Tumblr" },
+							{ "slug": "strategy", "name": "Strategy" },
+							{ "slug": "squarespace", "name": "Squarespace" },
+							{ "slug": "ruby on rails", "name": "Ruby On Rails" },
+							{ "slug": "rss", "name": "RSS" }
+						]
+				},
+
+				"website":
+				{
+					"name": "Website",
+					"slug": "website",
+					"complexity":
+						[
+							{ "level": "1", "slug": "1pages", "name": "1-Pager" },
+							{ "level": "2", "slug": "brochure", "name": "Brochure" },
+							{ "level": "4", "name": "webapp", "name": "Web App" }
+						],
+					"addons":
+						[
+							{ "slug": "analytics", "name": "Analytics" },
+							{ "slug": "cms", "name": "CMS" },
+							{ "slug": "ecommerce", "name": "eCommerce" },
+							{ "slug": "css", "name": "CSS" },
+							{ "slug": "design", "name": "Design" },
+							{ "slug": "android", "name": "Android" },
+							{ "slug": "ajax", "name": "AJAX" },
+							{ "slug": "drupal", "name": "Drupal" },
+							{ "slug": "flash", "name": "Flash" },
+							{ "slug": "full-stack", "name": "Full Stack" },
+							{ "slug": "html", "name": "HTML" },
+							{ "slug": "interaction", "name": "Interaction" },
+							{ "slug": "ios", "name": "iOS" },
+							{ "slug": "product-management", "name": "Product Management" },
+							{ "slug": "project-management", "name": "Project Management" },
+							{ "slug": "mobile", "name": "Mobile" },
+							{ "slug": "responsive", "name": "Responsive" },
+							{ "slug": "wordpress ", "name": "Wordpress " },
+							{ "slug": "widgets", "name": "Widgets" },
+							{ "slug": "ux design", "name": "UX Design" },
+							{ "slug": "user-behavior-research", "name": "User Behavior Research" },
+							{ "slug": "ui-design", "name": "UI Design" },
+							{ "slug": "tumblr", "name": "Tumblr" },
+							{ "slug": "strategy", "name": "Strategy" },
+							{ "slug": "squarespace", "name": "Squarespace" },
+							{ "slug": "ruby on rails", "name": "Ruby On Rails" },
+							{ "slug": "rss", "name": "RSS" }
+						]
+				},
+
+				"website-design":
+				{
+					"name": "Website Design",
+					"slug": "website-design",
+					"complexity":
+						[
+							{ "level": "1", "slug": "easypeasy", "name": "Easy Peasy" },
+							{ "level": "2", "slug": "nothinbutathing", "name": "Nothing But A Thing" },
+							{ "level": "3", "slug": "alittledoin", "name": "Takes A Little Doin'" },
+							{ "level": "4", "slug": "prettytough", "name": "Pretty Tough" },
+							{ "level": "4", "name": "skullfucker", "name": "Skull Fucker" }
+						],
+					"addons":
+						[
+							{ "slug": "analytics", "name": "Analytics" },
+							{ "slug": "cms", "name": "CMS" },
+							{ "slug": "ecommerce", "name": "eCommerce" },
+							{ "slug": "css", "name": "CSS" },
+							{ "slug": "design", "name": "Design" },
+							{ "slug": "android", "name": "Android" },
+							{ "slug": "ajax", "name": "AJAX" },
+							{ "slug": "drupal", "name": "Drupal" },
+							{ "slug": "flash", "name": "Flash" },
+							{ "slug": "full-stack", "name": "Full Stack" },
+							{ "slug": "html", "name": "HTML" },
+							{ "slug": "interaction", "name": "Interaction" },
+							{ "slug": "ios", "name": "iOS" },
+							{ "slug": "product-management", "name": "Product Management" },
+							{ "slug": "project-management", "name": "Project Management" },
+							{ "slug": "mobile", "name": "Mobile" },
+							{ "slug": "responsive", "name": "Responsive" },
+							{ "slug": "wordpress ", "name": "Wordpress " },
+							{ "slug": "widgets", "name": "Widgets" },
+							{ "slug": "ux design", "name": "UX Design" },
+							{ "slug": "user-behavior-research", "name": "User Behavior Research" },
+							{ "slug": "ui-design", "name": "UI Design" },
+							{ "slug": "tumblr", "name": "Tumblr" },
+							{ "slug": "strategy", "name": "Strategy" },
+							{ "slug": "squarespace", "name": "Squarespace" },
+							{ "slug": "ruby on rails", "name": "Ruby On Rails" },
+							{ "slug": "rss", "name": "RSS" }
+						]
+				},
+
+				"website-redesign":
+				{
+					"name": "Website Redesign",
+					"slug": "website-redesign",
+					"complexity":
+						[
+							{ "level": "1", "slug": "easypeasy", "name": "Easy Peasy" },
+							{ "level": "2", "slug": "nothinbutathing", "name": "Nothing But A Thing" },
+							{ "level": "3", "slug": "alittledoin", "name": "Takes A Little Doin'" },
+							{ "level": "4", "slug": "prettytough", "name": "Pretty Tough" },
+							{ "level": "4", "name": "skullfucker", "name": "Skull Fucker" }
+						],
+					"addons":
+						[
+							{ "slug": "analytics", "name": "Analytics" },
+							{ "slug": "cms", "name": "CMS" },
+							{ "slug": "ecommerce", "name": "eCommerce" },
+							{ "slug": "css", "name": "CSS" },
+							{ "slug": "design", "name": "Design" },
+							{ "slug": "android", "name": "Android" },
+							{ "slug": "ajax", "name": "AJAX" },
+							{ "slug": "drupal", "name": "Drupal" },
+							{ "slug": "flash", "name": "Flash" },
+							{ "slug": "full-stack", "name": "Full Stack" },
+							{ "slug": "html", "name": "HTML" },
+							{ "slug": "interaction", "name": "Interaction" },
+							{ "slug": "ios", "name": "iOS" },
+							{ "slug": "product-management", "name": "Product Management" },
+							{ "slug": "project-management", "name": "Project Management" },
+							{ "slug": "mobile", "name": "Mobile" },
+							{ "slug": "responsive", "name": "Responsive" },
+							{ "slug": "wordpress ", "name": "Wordpress " },
+							{ "slug": "widgets", "name": "Widgets" },
+							{ "slug": "ux design", "name": "UX Design" },
+							{ "slug": "user-behavior-research", "name": "User Behavior Research" },
+							{ "slug": "ui-design", "name": "UI Design" },
+							{ "slug": "tumblr", "name": "Tumblr" },
+							{ "slug": "strategy", "name": "Strategy" },
+							{ "slug": "squarespace", "name": "Squarespace" },
+							{ "slug": "ruby on rails", "name": "Ruby On Rails" },
+							{ "slug": "rss", "name": "RSS" }
+						]
+				},
+
+				"web branding":
+				{
+					"name": "Web Branding",
+					"slug": "web branding",
+					"complexity":
+						[
+							{ "level": "1", "slug": "easypeasy", "name": "Easy Peasy" },
+							{ "level": "2", "slug": "nothinbutathing", "name": "Nothing But A Thing" },
+							{ "level": "3", "slug": "alittledoin", "name": "Takes A Little Doin'" },
+							{ "level": "4", "slug": "prettytough", "name": "Pretty Tough" },
+							{ "level": "4", "name": "skullfucker", "name": "Skull Fucker" }
+						],
+					"addons":
+						[
+							{ "slug": "analytics", "name": "Analytics" },
+							{ "slug": "cms", "name": "CMS" },
+							{ "slug": "ecommerce", "name": "eCommerce" },
+							{ "slug": "css", "name": "CSS" },
+							{ "slug": "design", "name": "Design" },
+							{ "slug": "android", "name": "Android" },
+							{ "slug": "ajax", "name": "AJAX" },
+							{ "slug": "drupal", "name": "Drupal" },
+							{ "slug": "flash", "name": "Flash" },
+							{ "slug": "full-stack", "name": "Full Stack" },
+							{ "slug": "html", "name": "HTML" },
+							{ "slug": "interaction", "name": "Interaction" },
+							{ "slug": "ios", "name": "iOS" },
+							{ "slug": "product-management", "name": "Product Management" },
+							{ "slug": "project-management", "name": "Project Management" },
+							{ "slug": "mobile", "name": "Mobile" },
+							{ "slug": "responsive", "name": "Responsive" },
+							{ "slug": "wordpress ", "name": "Wordpress " },
+							{ "slug": "widgets", "name": "Widgets" },
+							{ "slug": "ux design", "name": "UX Design" },
+							{ "slug": "user-behavior-research", "name": "User Behavior Research" },
+							{ "slug": "ui-design", "name": "UI Design" },
+							{ "slug": "tumblr", "name": "Tumblr" },
+							{ "slug": "strategy", "name": "Strategy" },
+							{ "slug": "squarespace", "name": "Squarespace" },
+							{ "slug": "ruby on rails", "name": "Ruby On Rails" },
+							{ "slug": "rss", "name": "RSS" }
+						]
+				},
+
+				"integrated-branding":
+				{
+					"name": "Integrated Branding",
+					"slug": "integrated-branding",
+					"complexity":
+						[
+							{ "level": "1", "slug": "easypeasy", "name": "Easy Peasy" },
+							{ "level": "2", "slug": "nothinbutathing", "name": "Nothing But A Thing" },
+							{ "level": "3", "slug": "alittledoin", "name": "Takes A Little Doin'" },
+							{ "level": "4", "slug": "prettytough", "name": "Pretty Tough" },
+							{ "level": "4", "name": "skullfucker", "name": "Skull Fucker" }
+						],
+					"addons":
+						[
+							{ "slug": "analytics", "name": "Analytics" },
+							{ "slug": "cms", "name": "CMS" },
+							{ "slug": "ecommerce", "name": "eCommerce" },
+							{ "slug": "css", "name": "CSS" },
+							{ "slug": "design", "name": "Design" },
+							{ "slug": "android", "name": "Android" },
+							{ "slug": "ajax", "name": "AJAX" },
+							{ "slug": "drupal", "name": "Drupal" },
+							{ "slug": "flash", "name": "Flash" },
+							{ "slug": "full-stack", "name": "Full Stack" },
+							{ "slug": "html", "name": "HTML" },
+							{ "slug": "interaction", "name": "Interaction" },
+							{ "slug": "ios", "name": "iOS" },
+							{ "slug": "product-management", "name": "Product Management" },
+							{ "slug": "project-management", "name": "Project Management" },
+							{ "slug": "mobile", "name": "Mobile" },
+							{ "slug": "responsive", "name": "Responsive" },
+							{ "slug": "wordpress ", "name": "Wordpress " },
+							{ "slug": "widgets", "name": "Widgets" },
+							{ "slug": "ux design", "name": "UX Design" },
+							{ "slug": "user-behavior-research", "name": "User Behavior Research" },
+							{ "slug": "ui-design", "name": "UI Design" },
+							{ "slug": "tumblr", "name": "Tumblr" },
+							{ "slug": "strategy", "name": "Strategy" },
+							{ "slug": "squarespace", "name": "Squarespace" },
+							{ "slug": "ruby on rails", "name": "Ruby On Rails" },
+							{ "slug": "rss", "name": "RSS" }
+						]
+				},
+
+				"ux-design":
+				{
+					"name": "UX Design",
+					"slug": "ux-design",
+					"complexity":
+						[
+							{ "level": "1", "slug": "easypeasy", "name": "Easy Peasy" },
+							{ "level": "2", "slug": "nothinbutathing", "name": "Nothing But A Thing" },
+							{ "level": "3", "slug": "alittledoin", "name": "Takes A Little Doin'" },
+							{ "level": "4", "slug": "prettytough", "name": "Pretty Tough" },
+							{ "level": "4", "name": "skullfucker", "name": "Skull Fucker" }
+						],
+					"addons":
+						[
+							{ "slug": "analytics", "name": "Analytics" },
+							{ "slug": "cms", "name": "CMS" },
+							{ "slug": "ecommerce", "name": "eCommerce" },
+							{ "slug": "css", "name": "CSS" },
+							{ "slug": "design", "name": "Design" },
+							{ "slug": "android", "name": "Android" },
+							{ "slug": "ajax", "name": "AJAX" },
+							{ "slug": "drupal", "name": "Drupal" },
+							{ "slug": "flash", "name": "Flash" },
+							{ "slug": "full-stack", "name": "Full Stack" },
+							{ "slug": "html", "name": "HTML" },
+							{ "slug": "interaction", "name": "Interaction" },
+							{ "slug": "ios", "name": "iOS" },
+							{ "slug": "product-management", "name": "Product Management" },
+							{ "slug": "project-management", "name": "Project Management" },
+							{ "slug": "mobile", "name": "Mobile" },
+							{ "slug": "responsive", "name": "Responsive" },
+							{ "slug": "wordpress ", "name": "Wordpress " },
+							{ "slug": "widgets", "name": "Widgets" },
+							{ "slug": "ux design", "name": "UX Design" },
+							{ "slug": "user-behavior-research", "name": "User Behavior Research" },
+							{ "slug": "ui-design", "name": "UI Design" },
+							{ "slug": "tumblr", "name": "Tumblr" },
+							{ "slug": "strategy", "name": "Strategy" },
+							{ "slug": "squarespace", "name": "Squarespace" },
+							{ "slug": "ruby on rails", "name": "Ruby On Rails" },
+							{ "slug": "rss", "name": "RSS" }
+						]
+				},
+
+				"social-media-design":
+				{
+					"name": "Social Media Design",
+					"slug": "social-media-design",
+					"complexity":
+						[
+							{ "level": "1", "slug": "easypeasy", "name": "Easy Peasy" },
+							{ "level": "2", "slug": "nothinbutathing", "name": "Nothing But A Thing" },
+							{ "level": "3", "slug": "alittledoin", "name": "Takes A Little Doin'" },
+							{ "level": "4", "slug": "prettytough", "name": "Pretty Tough" },
+							{ "level": "4", "name": "skullfucker", "name": "Skull Fucker" }
+						],
+					"addons":
+						[
+							{ "slug": "analytics", "name": "Analytics" },
+							{ "slug": "cms", "name": "CMS" },
+							{ "slug": "ecommerce", "name": "eCommerce" },
+							{ "slug": "css", "name": "CSS" },
+							{ "slug": "design", "name": "Design" },
+							{ "slug": "android", "name": "Android" },
+							{ "slug": "ajax", "name": "AJAX" },
+							{ "slug": "drupal", "name": "Drupal" },
+							{ "slug": "flash", "name": "Flash" },
+							{ "slug": "full-stack", "name": "Full Stack" },
+							{ "slug": "html", "name": "HTML" },
+							{ "slug": "interaction", "name": "Interaction" },
+							{ "slug": "ios", "name": "iOS" },
+							{ "slug": "product-management", "name": "Product Management" },
+							{ "slug": "project-management", "name": "Project Management" },
+							{ "slug": "mobile", "name": "Mobile" },
+							{ "slug": "responsive", "name": "Responsive" },
+							{ "slug": "wordpress ", "name": "Wordpress " },
+							{ "slug": "widgets", "name": "Widgets" },
+							{ "slug": "ux design", "name": "UX Design" },
+							{ "slug": "user-behavior-research", "name": "User Behavior Research" },
+							{ "slug": "ui-design", "name": "UI Design" },
+							{ "slug": "tumblr", "name": "Tumblr" },
+							{ "slug": "strategy", "name": "Strategy" },
+							{ "slug": "squarespace", "name": "Squarespace" },
+							{ "slug": "ruby on rails", "name": "Ruby On Rails" },
+							{ "slug": "rss", "name": "RSS" }
+						]
+				},
+
+				"ecommerce":
+				{
+					"name": "eCommerce",
+					"slug": "ecommerce",
+					"complexity":
+						[
+							{ "level": "1", "slug": "easypeasy", "name": "Easy Peasy" },
+							{ "level": "2", "slug": "nothinbutathing", "name": "Nothing But A Thing" },
+							{ "level": "3", "slug": "alittledoin", "name": "Takes A Little Doin'" },
+							{ "level": "4", "slug": "prettytough", "name": "Pretty Tough" },
+							{ "level": "4", "name": "skullfucker", "name": "Skull Fucker" }
+						],
+					"addons":
+						[
+							{ "slug": "analytics", "name": "Analytics" },
+							{ "slug": "cms", "name": "CMS" },
+							{ "slug": "ecommerce", "name": "eCommerce" },
+							{ "slug": "css", "name": "CSS" },
+							{ "slug": "design", "name": "Design" },
+							{ "slug": "android", "name": "Android" },
+							{ "slug": "ajax", "name": "AJAX" },
+							{ "slug": "drupal", "name": "Drupal" },
+							{ "slug": "flash", "name": "Flash" },
+							{ "slug": "full-stack", "name": "Full Stack" },
+							{ "slug": "html", "name": "HTML" },
+							{ "slug": "interaction", "name": "Interaction" },
+							{ "slug": "ios", "name": "iOS" },
+							{ "slug": "product-management", "name": "Product Management" },
+							{ "slug": "project-management", "name": "Project Management" },
+							{ "slug": "mobile", "name": "Mobile" },
+							{ "slug": "responsive", "name": "Responsive" },
+							{ "slug": "wordpress ", "name": "Wordpress " },
+							{ "slug": "widgets", "name": "Widgets" },
+							{ "slug": "ux design", "name": "UX Design" },
+							{ "slug": "user-behavior-research", "name": "User Behavior Research" },
+							{ "slug": "ui-design", "name": "UI Design" },
+							{ "slug": "tumblr", "name": "Tumblr" },
+							{ "slug": "strategy", "name": "Strategy" },
+							{ "slug": "squarespace", "name": "Squarespace" },
+							{ "slug": "ruby on rails", "name": "Ruby On Rails" },
+							{ "slug": "rss", "name": "RSS" }
+						]
+				},
+
+				"teaser-website":
+				{
+					"name": "Teaser Website",
+					"slug": "teaser-website",
+					"complexity":
+						[
+							{ "level": "1", "slug": "easypeasy", "name": "Easy Peasy" },
+							{ "level": "2", "slug": "nothinbutathing", "name": "Nothing But A Thing" },
+							{ "level": "3", "slug": "alittledoin", "name": "Takes A Little Doin'" },
+							{ "level": "4", "slug": "prettytough", "name": "Pretty Tough" },
+							{ "level": "4", "name": "skullfucker", "name": "Skull Fucker" }
+						],
+					"addons":
+						[
+							{ "slug": "analytics", "name": "Analytics" },
+							{ "slug": "cms", "name": "CMS" },
+							{ "slug": "ecommerce", "name": "eCommerce" },
+							{ "slug": "css", "name": "CSS" },
+							{ "slug": "design", "name": "Design" },
+							{ "slug": "android", "name": "Android" },
+							{ "slug": "ajax", "name": "AJAX" },
+							{ "slug": "drupal", "name": "Drupal" },
+							{ "slug": "flash", "name": "Flash" },
+							{ "slug": "full-stack", "name": "Full Stack" },
+							{ "slug": "html", "name": "HTML" },
+							{ "slug": "interaction", "name": "Interaction" },
+							{ "slug": "ios", "name": "iOS" },
+							{ "slug": "product-management", "name": "Product Management" },
+							{ "slug": "project-management", "name": "Project Management" },
+							{ "slug": "mobile", "name": "Mobile" },
+							{ "slug": "responsive", "name": "Responsive" },
+							{ "slug": "wordpress ", "name": "Wordpress " },
+							{ "slug": "widgets", "name": "Widgets" },
+							{ "slug": "ux design", "name": "UX Design" },
+							{ "slug": "user-behavior-research", "name": "User Behavior Research" },
+							{ "slug": "ui-design", "name": "UI Design" },
+							{ "slug": "tumblr", "name": "Tumblr" },
+							{ "slug": "strategy", "name": "Strategy" },
+							{ "slug": "squarespace", "name": "Squarespace" },
+							{ "slug": "ruby on rails", "name": "Ruby On Rails" },
+							{ "slug": "rss", "name": "RSS" }
+						]
+				},
+
+				"iphone-app":
+				{
+					"name": "iPhone App",
+					"slug": "iphone-app",
+					"complexity":
+						[
+							{ "level": "1", "slug": "easypeasy", "name": "Easy Peasy" },
+							{ "level": "2", "slug": "nothinbutathing", "name": "Nothing But A Thing" },
+							{ "level": "3", "slug": "alittledoin", "name": "Takes A Little Doin'" },
+							{ "level": "4", "slug": "prettytough", "name": "Pretty Tough" },
+							{ "level": "4", "name": "skullfucker", "name": "Skull Fucker" }
+						],
+					"addons":
+						[
+							{ "slug": "analytics", "name": "Analytics" },
+							{ "slug": "cms", "name": "CMS" },
+							{ "slug": "ecommerce", "name": "eCommerce" },
+							{ "slug": "css", "name": "CSS" },
+							{ "slug": "design", "name": "Design" },
+							{ "slug": "android", "name": "Android" },
+							{ "slug": "ajax", "name": "AJAX" },
+							{ "slug": "drupal", "name": "Drupal" },
+							{ "slug": "flash", "name": "Flash" },
+							{ "slug": "full-stack", "name": "Full Stack" },
+							{ "slug": "html", "name": "HTML" },
+							{ "slug": "interaction", "name": "Interaction" },
+							{ "slug": "ios", "name": "iOS" },
+							{ "slug": "product-management", "name": "Product Management" },
+							{ "slug": "project-management", "name": "Project Management" },
+							{ "slug": "mobile", "name": "Mobile" },
+							{ "slug": "responsive", "name": "Responsive" },
+							{ "slug": "wordpress ", "name": "Wordpress " },
+							{ "slug": "widgets", "name": "Widgets" },
+							{ "slug": "ux design", "name": "UX Design" },
+							{ "slug": "user-behavior-research", "name": "User Behavior Research" },
+							{ "slug": "ui-design", "name": "UI Design" },
+							{ "slug": "tumblr", "name": "Tumblr" },
+							{ "slug": "strategy", "name": "Strategy" },
+							{ "slug": "squarespace", "name": "Squarespace" },
+							{ "slug": "ruby on rails", "name": "Ruby On Rails" },
+							{ "slug": "rss", "name": "RSS" }
+						]
+				},
+
+				"web-video":
+				{
+					"name": "Web Video",
+					"slug": "web-video",
+					"complexity":
+						[
+							{ "level": "1", "slug": "easypeasy", "name": "Easy Peasy" },
+							{ "level": "2", "slug": "nothinbutathing", "name": "Nothing But A Thing" },
+							{ "level": "3", "slug": "alittledoin", "name": "Takes A Little Doin'" },
+							{ "level": "4", "slug": "prettytough", "name": "Pretty Tough" },
+							{ "level": "4", "name": "skullfucker", "name": "Skull Fucker" }
+						],
+					"addons":
+						[
+							{ "slug": "analytics", "name": "Analytics" },
+							{ "slug": "cms", "name": "CMS" },
+							{ "slug": "ecommerce", "name": "eCommerce" },
+							{ "slug": "css", "name": "CSS" },
+							{ "slug": "design", "name": "Design" },
+							{ "slug": "android", "name": "Android" },
+							{ "slug": "ajax", "name": "AJAX" },
+							{ "slug": "drupal", "name": "Drupal" },
+							{ "slug": "flash", "name": "Flash" },
+							{ "slug": "full-stack", "name": "Full Stack" },
+							{ "slug": "html", "name": "HTML" },
+							{ "slug": "interaction", "name": "Interaction" },
+							{ "slug": "ios", "name": "iOS" },
+							{ "slug": "product-management", "name": "Product Management" },
+							{ "slug": "project-management", "name": "Project Management" },
+							{ "slug": "mobile", "name": "Mobile" },
+							{ "slug": "responsive", "name": "Responsive" },
+							{ "slug": "wordpress ", "name": "Wordpress " },
+							{ "slug": "widgets", "name": "Widgets" },
+							{ "slug": "ux design", "name": "UX Design" },
+							{ "slug": "user-behavior-research", "name": "User Behavior Research" },
+							{ "slug": "ui-design", "name": "UI Design" },
+							{ "slug": "tumblr", "name": "Tumblr" },
+							{ "slug": "strategy", "name": "Strategy" },
+							{ "slug": "squarespace", "name": "Squarespace" },
+							{ "slug": "ruby on rails", "name": "Ruby On Rails" },
+							{ "slug": "rss", "name": "RSS" }
+						]
+				}	
+
+			}
+
+	}
+
+]
+
+
+
+
+
+
+
+
+
+
+
+
+

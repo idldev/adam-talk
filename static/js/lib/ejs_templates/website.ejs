@@ -1,0 +1,43 @@
+<div id='<%= unique_id %>' class='deliverable deliverable-container website'>
+
+	<div class='titlebar'>
+		<div class='item_name'><%= deliverable_name %></div> <div class='close'><span class='badge'>X</span></div> <div class='add_specs'>Add Specs</div> 
+	</div>
+	<div class='inner_content'>
+
+		<h3>What type of <%= deliverable_name %>?</h3>
+		<div class='subcontainer deliverable_type_container select_one_only'>
+			<div class='drop' data-slug='one_pager' data-cost='2000'>One Pager</div>
+			<div class='drop' data-slug='basic_marketing' data-cost='8000'>Basic Marketing Site</div>
+			<div class='drop' data-slug='dynamic' data-cost='30000'>Dynamic Site</div>
+		</div>
+
+		<h3>What features?</h3>
+		<div class='subcontainer deliverable_features_container select_many'>
+			<div class='drop' data-slug='blog' data-cost='1000'>Blog</div>
+			<div class='drop' data-slug='cms' data-cost='2000'>CMS</div>
+			<div class='drop' data-slug='credit_card_payments' data-cost='2000'>Credit Card Payments</div>
+			<div class='drop' data-slug='shopping' data-cost='5000'>Shopping</div>
+			<div class='drop' data-slug='user_accounts' data-cost='2000'>User Accounts</div>
+			<div class='drop' data-slug='newsletter' data-cost='1000'>Newsletter</div>
+			<div class='drop' data-slug='social_media' data-cost='1000'>Social Media</div>
+			<div class='drop' data-slug='statistics' data-cost='1000'>Statistics</div>
+		</div>
+
+		<h3>How Many Pages?</h3>
+		<div class='subcontainer deliverable_website_numpages_container select_one_only'>
+			<div class='drop' data-slug='pages_one-to-five' data-cost='0'>1-5</div>
+			<div class='drop' data-slug='pages_five-to-ten' data-cost='500'>5-10</div>
+			<div class='drop' data-slug='pages_ten-to-twenty' data-cost='1000'>10-20</div>
+			<div class='drop' data-slug='pages_twenty-plus' data-cost='2000'>20+</div>
+		</div>
+
+		<h3>Example Links:</h3>
+		<input type='text' placeholder='http://' />
+
+		<h3>Additional Notes</h3>
+		<textarea placeholder='Write your additional comments in this box'></textarea>
+
+	</div>
+
+</div>
