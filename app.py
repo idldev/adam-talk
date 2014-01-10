@@ -21,19 +21,24 @@ def main(id=None):
         'This is a hotfix.',
         'Jesse!',
         'Jesse can you come in here for a second?',
-        '...sliipped through the cracks',
+        '...slipped through the cracks',
         'Can we squeeze this into the next sprint?',
         'There\'s so much to do!',
         'Can we hotfix that?',
         'Can we hotfix this?',
         'We have to move faster, guys.',
         'Guys, we just have to move faster.',
-        'Not to sound like a broken record, but we HAVE to move faster',
+        'Not to sound like a broken record, but<br />we HAVE to move faster',
         'Guys, we can\'t slow down.',
-        'We need to keep pushing full steam ahead.',
+        'We need to keep pushing full<br />steam ahead.',
         'I can\'t even look at this, it\'s too buggy.',
         'Any way we can squeeze this into the current sprint?',
-        
+        'insert massive eye roll here.',
+        'I don\'t know what to tell you, guys.<br />We need it all.',
+        'No widows or orphans, guys.<br />No widows or orphans.',
+        'It just looks unprofessional.',
+
+
     ]
 
     quote = choice(quotes)
