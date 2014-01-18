@@ -40,7 +40,7 @@ def main(id=None):
         'I\'m having trouble accepting that\'s just the natural order of dev.',
         'You keep floating that balloon, but it\'s just not gonna happen.',
         'We need to take that down',
-        'It doesn’t fit our brand image.',
+        'It doesn\'t fit our brand image.',
         'How are the blog posts coming along?',
         'There seems to be some confusion...',
         'What\'s the context of this?',
