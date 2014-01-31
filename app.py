@@ -54,6 +54,7 @@ def main(id=None):
 @app.route('/naked')
 def naked():
     quote = choice(quotes)
+    quote = re.sub('<[^<]+?>', ' ', quote)
     return quote
 
 
