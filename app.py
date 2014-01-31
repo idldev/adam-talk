@@ -44,6 +44,9 @@ def main(id=None):
         'How are the blog posts coming along?',
         'There seems to be some confusion...',
         'What\'s the context of this?',
+        'Are you guys making copy edits?',
+        'This is a really hot mess',
+        'isn\'t it just a line or two of code we can change?',
     ]
 
     quote = choice(quotes)
