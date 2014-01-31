@@ -46,7 +46,8 @@ def main(id=None):
         'What\'s the context of this?',
         'Are you guys making copy edits?',
         'This is a really hot mess',
-        'isn\'t it just a line or two of code we can change?',
+        'Isn\'t it just a line or two of code we can change?',
+        'Guys, now we have a Pinterest page!',
     ]
 
     quote = choice(quotes)
