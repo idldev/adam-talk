@@ -6,11 +6,7 @@ from random import choice
 
 app = Flask(__name__)
 
-
-@app.route('/')
-def main(id=None):
-
-    quotes = [
+quotes = [
         'Just get it done.',
         'The dev team is behind.',
         'Those damn Belorussians.',
@@ -50,9 +46,15 @@ def main(id=None):
         'Guys, now we have a Pinterest page!',
     ]
 
+@app.route('/')
+def main(id=None):
     quote = choice(quotes)
-
     return render_template('index.html', quote=quote)
+
+@app.route('/naked')
+def naked():
+    quote = choice(quotes)
+    return quote
 
 
 if __name__ == '__main__':
